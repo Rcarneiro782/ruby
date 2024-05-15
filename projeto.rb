@@ -2,13 +2,13 @@
 #além de sua idade que é um dado relevante para o departamento de marketing daquele local.
 #Tudo isso, impresso, em uma única frase.
 
-print "Digite Seu nome:  "
+print "enter your  name:  "
 name = gets.chomp
 
-print "Digite Seu Sobrenome: "
+print "enter your last name: "
 lastname= gets.chomp
 
-print "Digite Sua idade: "
+print "enter your age : "
 age = gets.chomp.to_i
 
 puts "Your full name is #{name} #{lastname} and you are  #{age }! "
